@@ -4,14 +4,22 @@ body {
 }
 
 .main-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     padding: 1rem;
     width: 100%;
     height: 100vh;
     color: #fff;
     background-color: #000;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+section:last-child {
+    padding: 52px;
 }
 
 .title {
@@ -20,7 +28,20 @@ body {
     text-align: center;
 }
 
+.subtitle {
+    font-size: 42px;
+    font-weight: normal;
+    text-align: center;
+}
+
 .link {
     color: aquamarine;
     font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.text {
+    font-size: 21px;
+    color: gray;
+    font-family: Verdana, sans-serif;
 }
